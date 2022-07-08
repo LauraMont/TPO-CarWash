@@ -78,6 +78,21 @@
         <height>24</height>
        </rect>
       </property>
+      <item>
+       <property name="text">
+        <string>Regular</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Premium</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
      </widget>
      <widget class="QLabel" name="lavado_lb">
       <property name="geometry">

@@ -7,16 +7,20 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     connect(ui->info_pb, SIGNAL(clicked()), this, SLOT(info_pb_Clicked()));
-
+    connect(ui->cerrar_sesion_pb, SIGNAL(clicked()), this, SLOT(cerrar_sesion_pb_Clicked()));
 }
 
-MainWindow::~MainWindow()
-{
+void MainWindow:: info_pb_Clicked(void){
+    //Abro la ventana de info_sistemas
+    info_sistemas *ventana1 = new info_sistemas(this);
+    ventana1->setModal(true);
+    ventana1->show();
+}
+void MainWindow:: cerrar_sesion_pb_Clicked(void){
+    this->close();
+    //deberia volver a login
+}
+
+MainWindow::~MainWindow(){
     delete ui;
-}
-
-void MainWindow:: info_pb_Clicked(void)
-{
-    Informacion_etapas *ventana = new Informacion_etapas;
-    ventana->show();
 }

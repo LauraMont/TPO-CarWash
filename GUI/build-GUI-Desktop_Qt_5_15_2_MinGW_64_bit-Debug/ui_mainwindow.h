@@ -69,6 +69,9 @@ public:
         cerrar_sesion_pb->setObjectName(QString::fromUtf8("cerrar_sesion_pb"));
         cerrar_sesion_pb->setGeometry(QRect(300, 290, 80, 24));
         tipo_lavado_pb = new QComboBox(Proceso);
+        tipo_lavado_pb->addItem(QString());
+        tipo_lavado_pb->addItem(QString());
+        tipo_lavado_pb->addItem(QString());
         tipo_lavado_pb->setObjectName(QString::fromUtf8("tipo_lavado_pb"));
         tipo_lavado_pb->setGeometry(QRect(360, 150, 72, 24));
         lavado_lb = new QLabel(Proceso);
@@ -126,6 +129,10 @@ public:
         iniciar_pb->setText(QCoreApplication::translate("MainWindow", "Iniciar", nullptr));
         apagar_pb->setText(QCoreApplication::translate("MainWindow", "Apagar", nullptr));
         cerrar_sesion_pb->setText(QCoreApplication::translate("MainWindow", "Cerrar Sesion", nullptr));
+        tipo_lavado_pb->setItemText(0, QCoreApplication::translate("MainWindow", "Regular", nullptr));
+        tipo_lavado_pb->setItemText(1, QCoreApplication::translate("MainWindow", "Premium", nullptr));
+        tipo_lavado_pb->setItemText(2, QString());
+
         lavado_lb->setText(QCoreApplication::translate("MainWindow", "Ingrese lavado:", nullptr));
         e_lavado_le->setText(QCoreApplication::translate("MainWindow", " 1", nullptr));
         e_cepillado_le->setText(QCoreApplication::translate("MainWindow", " 2", nullptr));

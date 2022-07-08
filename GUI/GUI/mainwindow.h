@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <informacion_etapas.h>
+#include <info_sistemas.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,5 +20,6 @@ private:
     Ui::MainWindow *ui;
 private slots:
     void info_pb_Clicked(void);
+    void cerrar_sesion_pb_Clicked (void);
 };
 #endif // MAINWINDOW_H

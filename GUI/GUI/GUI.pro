@@ -9,16 +9,16 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    informacion_etapas.cpp \
+    info_sistemas.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
-    informacion_etapas.h \
+    info_sistemas.h \
     mainwindow.h
 
 FORMS += \
-    informacion_etapas.ui \
+    info_sistemas.ui \
     mainwindow.ui
 
 # Default rules for deployment.
