@@ -30,7 +30,7 @@
      <attribute name="title">
       <string>Proceso</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="iniciar_pb">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -43,7 +43,7 @@
        <string>Iniciar</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="apagar_pb">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -56,7 +56,7 @@
        <string>Apagar</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="cerrar_sesion_pb">
       <property name="geometry">
        <rect>
         <x>300</x>
@@ -69,7 +69,7 @@
        <string>Cerrar Sesion</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="tipo_lavado_pb">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -79,7 +79,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="lavado_lb">
       <property name="geometry">
        <rect>
         <x>230</x>
@@ -92,7 +92,7 @@
        <string>Ingrese lavado:</string>
       </property>
      </widget>
-     <widget class="QProgressBar" name="progressBar">
+     <widget class="QProgressBar" name="proceso_progbar">
       <property name="geometry">
        <rect>
         <x>110</x>
@@ -105,7 +105,7 @@
        <number>24</number>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="e_lavado_le">
       <property name="geometry">
        <rect>
         <x>120</x>
@@ -118,7 +118,7 @@
        <string> 1</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="e_cepillado_le">
       <property name="geometry">
        <rect>
         <x>280</x>
@@ -128,10 +128,10 @@
        </rect>
       </property>
       <property name="text">
-       <string> 1</string>
+       <string> 2</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QLineEdit" name="e_enjuague_le">
       <property name="geometry">
        <rect>
         <x>420</x>
@@ -141,10 +141,10 @@
        </rect>
       </property>
       <property name="text">
-       <string> 1</string>
+       <string> 3</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_4">
+     <widget class="QLineEdit" name="e_secado_le">
       <property name="geometry">
        <rect>
         <x>550</x>
@@ -154,7 +154,20 @@
        </rect>
       </property>
       <property name="text">
-       <string> 1</string>
+       <string> 4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="info_pb">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>210</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>?</string>
       </property>
      </widget>
     </widget>
