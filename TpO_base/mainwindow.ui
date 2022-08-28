@@ -45,6 +45,19 @@
      <attribute name="title">
       <string>Mantenimiento</string>
      </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>75</y>
+        <width>341</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>XDXDXDXD</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
