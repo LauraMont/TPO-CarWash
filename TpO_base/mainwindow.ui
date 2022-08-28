@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="Proceso">
      <attribute name="title">
@@ -78,6 +78,19 @@
      <attribute name="title">
       <string>Configuración</string>
      </attribute>
+     <widget class="QPushButton" name="pb_empleados">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>50</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Empleados</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Mantenimiento">
      <attribute name="title">
