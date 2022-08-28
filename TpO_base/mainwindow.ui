@@ -35,13 +35,33 @@
      <attribute name="title">
       <string>Estadísticas</string>
      </attribute>
+     <widget class="QComboBox" name="CB_categorias">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>400</y>
+        <width>151</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Ganancia</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lavados</string>
+       </property>
+      </item>
+     </widget>
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>254</x>
-        <y>150</y>
-        <width>371</width>
-        <height>111</height>
+        <x>320</x>
+        <y>190</y>
+        <width>71</width>
+        <height>151</height>
        </rect>
       </property>
       <property name="font">
@@ -50,7 +70,7 @@
        </font>
       </property>
       <property name="text">
-       <string>AHORA estoy en estadisitica</string>
+       <string>?</string>
       </property>
      </widget>
     </widget>
