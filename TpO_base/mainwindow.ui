@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="Proceso">
      <attribute name="title">
@@ -35,6 +35,24 @@
      <attribute name="title">
       <string>Estadísticas</string>
      </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>254</x>
+        <y>150</y>
+        <width>371</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>XDDDD</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Configuracion">
      <attribute name="title">
